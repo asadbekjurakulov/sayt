@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d22;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li a, .appointment-btn {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  .appointment-btn {
+    background-color: #ff5e5e;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+
+  .hero {
+    width: 1500px;
+    height: 533px;
+    top: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8d77/a05a/ae0b5a86186ed1ee3cd1a093fd90802f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pDdLqbneNiprcwVzs3o8flFUqzBRkaBlc-yqcmRuQ4wpM4ew1dxe02pk-LQq5XOyAmNjX-IIZD8a5UJ9rRZxcp5TvqferzqIHdsPe93LHfsC~kWfETsvOQAehnZ3GkHf-EXGfdX000GV66ueBRUIyxaHM6PwhNf6nQcKf73sspD-G~55-gmIO9ITEm8Wt76rr~mnWdXtMXXKcmxQvtLmOm3HPHuV-e3tcaBjnVIJfiP3rG-q-PHCuI8uTw1pmVY2IxjO-7QHf5-BZSpNwzKVDcob9bwSKmQRYJZ-x-e6EEFqou3t5-EZ8W9KymbHs8MX2Bkx9GQywKKet1sQvwCCWA__");
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: cover;
+  }
+  
+  .hero h1 {
+    max-width: 500px;
+    font-size: 2.5rem;
+  }
+  
+  .hero-btn {
+    background-color: #ff5e5e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .services {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+
+  .contact {
+    padding: 50px;
+    background-color: #e0f7fa;
+    text-align: center;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form input, .contact-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
